@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Adarsh Kumar Singh and I'm an undergraduate student from Tatanagar,Jharkhand India</h2>
+<h2 align="left">Hi 👋! My name is Adarsh Kumar Singh and I'm a trainee @LTIMindtree,I belong from Tatanagar(Jamshedpur),Jharkhand India</h2>
 
 ###
 
