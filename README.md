@@ -19,18 +19,18 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api?username=devilkadabra69&show_icons=true&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devilkadabra69&layout=compact&theme=radical" />
 </p>
 
 ### 🌱 Activity Graph
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=rogue" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=devilkadabra69&theme=rogue" />
 </p>
 
 ### 🏆 Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=dracula&margin-w=10&margin-h=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=devilkadabra69&theme=dracula&margin-w=10&margin-h=10" />
 </p>
 
 ### 🐍 Contribution Snake
