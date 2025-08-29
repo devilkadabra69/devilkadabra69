@@ -30,8 +30,9 @@
 
 ### 🏆 Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=devilkadabra69&theme=dracula&margin-w=10&margin-h=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=devilkadabra69&theme=dracula&margin-w=10&margin-h=10" alt="Trophies" />
 </p>
+
 
 ### 🐍 Contribution Snake
 <p align="center">
