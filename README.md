@@ -28,12 +28,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=devilkadabra69&theme=rogue" />
 </p>
 
-### 🏆 Trophies
-<p align="center">
- <img src="https://devilkadabra69.github.io/github-profile-trophy/?username=devilkadabra69&theme=dracula" />
-</p>
-
-
 ### 🐍 Contribution Snake
 <p align="center">
   <img src="./assets/dark.svg" alt="GitHub Snake Dark" />
