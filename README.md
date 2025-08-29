@@ -35,7 +35,9 @@
 
 ### 🐍 Contribution Snake
 <p align="center">
-  <img src="./assets/snake.svg" alt="Snake animation" />
+  <img src="./assets/dark.svg" alt="GitHub Snake Dark" />
+  <img src="./assets/light.svg" alt="GitHub Snake Light" />
+  <img src="./assets/ocean.gif" alt="GitHub Snake Ocean" />
 </p>
 
 <!-- Optional collapsible sections -->
