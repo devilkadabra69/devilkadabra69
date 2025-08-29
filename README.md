@@ -30,7 +30,7 @@
 
 ### 🏆 Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=devilkadabra69&theme=radical&no-frame=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+ <img src="https://devilkadabra69.github.io/github-profile-trophy/?username=devilkadabra69&theme=dracula" />
 </p>
 
 
