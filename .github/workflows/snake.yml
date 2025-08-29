@@ -3,7 +3,7 @@ name: Generate Snake
 on:
   schedule:
     - cron: "0 0 * * *"   # runs every day at midnight UTC
-  workflow_dispatch:       # allow manual run
+  workflow_dispatch:       # allow manual run from GitHub Actions tab
 
 permissions:
   contents: write
@@ -12,21 +12,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate snake game from GitHub contribution grid
+      - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk@v3.3.0
         with:
           github_user_name: devilkadabra69
           outputs: |
-            ./assets/snake-dark.svg?palette=github-dark&color_snake=blue
-            ./assets/snake-light.svg?palette=github-light
-            ./assets/snake-ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/dark.svg?palette=github-dark&color_snake=blue
+            dist/light.svg?palette=github-light&color_snake=#7845ab
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Commit and push
+      - name: Move snake files
+        run: |
+          mkdir -p assets
+          cp dist/* assets/
+
+      - name: Commit and push snake
         uses: EndBug/add-and-commit@v9
         with:
-          add: "assets/*.svg assets/*.gif"
+          add: "assets/*"
           message: "chore: update snake"
           default_author: github_actions
