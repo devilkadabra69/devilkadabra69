@@ -1,50 +1,86 @@
-<!-- Banner -->
-<p align="center">
-  <img src="./assets/banner.png" alt="Banner" />
-</p>
+<!-- Animated Header Banner -->
+<div align="center">
+  <img src="https://vercel.app" width="100%" />
+</div>
 
-<h1 align="center">Hi, I'm devilkadabra69 👋</h1>
+<!-- Quick Social & Portfolio Links -->
+<div align="center">
+  <a href="https://linkedin.com"><img src="https://shields.io" /></a>
+  <a href="https://huggingface.co"><img src="https://shields.io" /></a>
+  <a href="https://x.com"><img src="https://shields.io" /></a>
+  <a href="https://your-portfolio.com"><img src="https://shields.io" /></a>
+</div>
 
-<p align="center">
-  <a href="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /></a>
-  <a href="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" /></a>
-  <a href="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a>
-  <a href="https://img.shields.io/badge/GenAI-000000?style=for-the-badge&logo=OpenAI&logoColor=white"><img src="https://img.shields.io/badge/GenAI-000000?style=for-the-badge&logo=OpenAI&logoColor=white" /></a>
-</p>
+<br/>
 
-## 🚀 Dashboard
-- **Role:** Software Engineer @ LTI Mindtree  
-- **Skills:** Java · Python · Spring Boot · Machine Learning · Generative AI  
-- **Current:** Building Finance Hub & AI tools
+### ⚡ System Prompt (`about_me.yaml`)
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=devilkadabra69&show_icons=true&theme=radical" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devilkadabra69&layout=compact&theme=radical" />
-</p>
+```yaml
+role: "AI / Machine Learning Engineer"
+focus:
+  - "Agentic Workflows & Multi-Agent Orchestration"
+  - "Post-Training (SFT, DPO, RLHF) & Quantization"
+  - "Low-Latency Inference & Hybrid RAG Pipelines"
+currently_building: "An open-source evaluation harness for tool-calling agents"
+location: "Earth (UTC+5:30)"
+```
 
-### 🌱 Activity Graph
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=devilkadabra69&theme=rogue" />
-</p>
+---
 
-### 🐍 Contribution Snake
-<p align="center">
-  <img src="./assets/dark.svg" alt="GitHub Snake Dark" />
-  <img src="./assets/light.svg" alt="GitHub Snake Light" />
-  <img src="./assets/ocean.gif" alt="GitHub Snake Ocean" />
-</p>
+### 🧠 AI & Engineering Stack
 
-<!-- Optional collapsible sections -->
-<details>
-  <summary>📂 Featured Projects</summary>
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **LLMs & Agents** | `LangGraph` `LlamaIndex` `DSPy` `AutoGen` `CrewAI` `MCP` |
+| **Deep Learning & Training** | `PyTorch` `Hugging Face` `vLLM` `Unsloth` `PEFT / LoRA` `CUDA` |
+| **Vector & Data Layer** | `Qdrant` `pgvector` `Milvus` `Neo4j (GraphRAG)` `DuckDB` |
+| **MLOps & Deployment** | `Docker` `Kubernetes` `Modal` `Triton Inference Server` `MLflow` `Weights & Biases` |
+| **Backend & Languages** | `Python` `Rust` `FastAPI` `gRPC` `PostgreSQL` `Redis` |
 
-- Finance Hub – Angular + Spring Boot
-- AI RAG Utilities – Python, FastAPI
-- Community Chat – WebSockets + React
+---
 
-</details>
+### 🚀 Featured AI Systems
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=devilkadabra69&color=blue" alt="Profile views"/>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 <a href="https://github.com">Autonomous Code-Review Agent</a></h4>
+      Multi-agent AST-aware reviewer using <b>LangGraph</b> and local quantized models. Reduced PR triage time by 45% with zero external data leakage.
+      <br/><br/>
+      <code>Python</code> <code>LangGraph</code> <code>vLLM</code> <code>Tree-sitter</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔍 <a href="https://github.com">Hybrid GraphRAG Engine</a></h4>
+      Combines dense vector search with knowledge graph traversal for complex multi-hop QA over 500k+ technical docs.
+      <br/><br/>
+      <code>Qdrant</code> <code>Neo4j</code> <code>DSPy</code> <code>FastAPI</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚡ <a href="https://github.com">Speculative Decoding Benchmark</a></h4>
+      Custom inference benchmarking suite testing draft-model acceptance rates and KV-cache compression on consumer GPUs.
+      <br/><br/>
+      <code>PyTorch</code> <code>CUDA</code> <code>HuggingFace</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📊 <a href="https://github.com">LLM Guardrails & Eval Pipeline</a></h4>
+      Real-time hallucination detection and latency-optimized PII redaction middleware for production chat APIs.
+      <br/><br/>
+      <code>ONNX</code> <code>Rust</code> <code>PyO3</code> <code>Docker</code>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📈 GitHub Telemetry
+
+<div align="center">
+  <img height="165em" src="https://vercel.app" />
+  <img height="165em" src="https://vercel.app" />
+</div>
+
+<div align="center">
+  <img src="https://herokuapp.com" />
+</div>
